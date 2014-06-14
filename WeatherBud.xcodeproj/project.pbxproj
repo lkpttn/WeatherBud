@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A356B3FA17D5307A0099E511 /* BudBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A356B3F817D5307A0099E511 /* BudBox.m */; };
+		A371BA7617DB8A6900301060 /* Icon-iOS7-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A371BA7317DB8A6800301060 /* Icon-iOS7-Spotlight.png */; };
+		A371BA7717DB8A6900301060 /* Icon-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = A371BA7417DB8A6800301060 /* Icon-iOS7.png */; };
+		A371BA7817DB8A6900301060 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = A371BA7517DB8A6800301060 /* Icon-Settings.png */; };
+		A371BA7D17DB8CD400301060 /* Icon-iOS6-57.png in Resources */ = {isa = PBXBuildFile; fileRef = A371BA7C17DB8CD400301060 /* Icon-iOS6-57.png */; };
+		A37C144317825D56004E750D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37C144217825D56004E750D /* QuartzCore.framework */; };
+		A39958EB176FE65200875DF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39958EA176FE65200875DF9 /* Default-568h@2x.png */; };
+		A3C1C688176C07530009E033 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD072176B87FB0001AAD8 /* SystemConfiguration.framework */; };
+		A3C1C689176C075A0009E033 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD070176B87F40001AAD8 /* MobileCoreServices.framework */; };
+		A3D37100176C108D00EE563E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370E8176C108D00EE563E /* AFHTTPClient.m */; };
+		A3D37101176C108D00EE563E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370EA176C108D00EE563E /* AFHTTPRequestOperation.m */; };
+		A3D37102176C108D00EE563E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370EC176C108D00EE563E /* AFImageRequestOperation.m */; };
+		A3D37103176C108D00EE563E /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370EE176C108D00EE563E /* AFJSONRequestOperation.m */; };
+		A3D37104176C108D00EE563E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370F0176C108D00EE563E /* AFNetworkActivityIndicatorManager.m */; };
+		A3D37105176C108D00EE563E /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370F3176C108D00EE563E /* AFPropertyListRequestOperation.m */; };
+		A3D37106176C108D00EE563E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370F5176C108D00EE563E /* AFURLConnectionOperation.m */; };
+		A3D37107176C108D00EE563E /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370F7176C108D00EE563E /* AFXMLRequestOperation.m */; };
+		A3D37108176C108D00EE563E /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370F9176C108D00EE563E /* UIImageView+AFNetworking.m */; };
+		A3D37109176C108D00EE563E /* Forecastr+CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370FC176C108D00EE563E /* Forecastr+CLLocation.m */; };
+		A3D3710A176C108D00EE563E /* Forecastr.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D370FE176C108D00EE563E /* Forecastr.m */; };
+		A3D3710B176C108D00EE563E /* ForecastrUnits.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3D370FF176C108D00EE563E /* ForecastrUnits.plist */; };
+		A3D3710E176C123E00EE563E /* FCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3710D176C123E00EE563E /* FCLocationManager.m */; };
+		A3DCD011176B85DD0001AAD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD010176B85DD0001AAD8 /* Foundation.framework */; };
+		A3DCD013176B85DD0001AAD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD012176B85DD0001AAD8 /* CoreGraphics.framework */; };
+		A3DCD015176B85DD0001AAD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD014176B85DD0001AAD8 /* UIKit.framework */; };
+		A3DCD01B176B85DD0001AAD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DCD019176B85DD0001AAD8 /* InfoPlist.strings */; };
+		A3DCD01D176B85DD0001AAD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DCD01C176B85DD0001AAD8 /* main.m */; };
+		A3DCD021176B85DD0001AAD8 /* WeatherbudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DCD020176B85DD0001AAD8 /* WeatherbudAppDelegate.m */; };
+		A3DCD024176B85DD0001AAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DCD022176B85DD0001AAD8 /* Main.storyboard */; };
+		A3DCD027176B85DD0001AAD8 /* WeatherbudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DCD026176B85DD0001AAD8 /* WeatherbudViewController.m */; };
+		A3DCD029176B85DD0001AAD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DCD028176B85DD0001AAD8 /* Images.xcassets */; };
+		A3DCD030176B85DD0001AAD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD02F176B85DD0001AAD8 /* XCTest.framework */; };
+		A3DCD031176B85DD0001AAD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD010176B85DD0001AAD8 /* Foundation.framework */; };
+		A3DCD032176B85DD0001AAD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD014176B85DD0001AAD8 /* UIKit.framework */; };
+		A3DCD03A176B85DD0001AAD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DCD038176B85DD0001AAD8 /* InfoPlist.strings */; };
+		A3DCD03C176B85DD0001AAD8 /* WeatherBudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DCD03B176B85DD0001AAD8 /* WeatherBudTests.m */; };
+		A3DCD06F176B87EB0001AAD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD06E176B87EB0001AAD8 /* CoreLocation.framework */; };
+		A3FA16A0176BBDA30050902A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FA169F176BBDA30050902A /* SettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3DCD033176B85DD0001AAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3DCD005176B85DD0001AAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DCD00C176B85DD0001AAD8;
+			remoteInfo = WeatherBud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A356B3F817D5307A0099E511 /* BudBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudBox.m; sourceTree = "<group>"; };
+		A356B3F917D5307A0099E511 /* BudBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudBox.h; sourceTree = "<group>"; };
+		A371BA7317DB8A6800301060 /* Icon-iOS7-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iOS7-Spotlight.png"; path = "../../Resources/WeatherBud Images/Icons/Icon-iOS7-Spotlight.png"; sourceTree = "<group>"; };
+		A371BA7417DB8A6800301060 /* Icon-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iOS7.png"; path = "../../Resources/WeatherBud Images/Icons/Icon-iOS7.png"; sourceTree = "<group>"; };
+		A371BA7517DB8A6800301060 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Settings.png"; path = "../../Resources/WeatherBud Images/Icons/Icon-Settings.png"; sourceTree = "<group>"; };
+		A371BA7C17DB8CD400301060 /* Icon-iOS6-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iOS6-57.png"; path = "../../Resources/WeatherBud Images/Icons/Icon-iOS6-57.png"; sourceTree = "<group>"; };
+		A37C144217825D56004E750D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A39958EA176FE65200875DF9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3D370E7176C108D00EE563E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A3D370E8176C108D00EE563E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A3D370E9176C108D00EE563E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A3D370EA176C108D00EE563E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A3D370EB176C108D00EE563E /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A3D370EC176C108D00EE563E /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A3D370ED176C108D00EE563E /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A3D370EE176C108D00EE563E /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A3D370EF176C108D00EE563E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A3D370F0176C108D00EE563E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A3D370F1176C108D00EE563E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A3D370F2176C108D00EE563E /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A3D370F3176C108D00EE563E /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A3D370F4176C108D00EE563E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A3D370F5176C108D00EE563E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A3D370F6176C108D00EE563E /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A3D370F7176C108D00EE563E /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A3D370F8176C108D00EE563E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A3D370F9176C108D00EE563E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A3D370FB176C108D00EE563E /* Forecastr+CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Forecastr+CLLocation.h"; sourceTree = "<group>"; };
+		A3D370FC176C108D00EE563E /* Forecastr+CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Forecastr+CLLocation.m"; sourceTree = "<group>"; };
+		A3D370FD176C108D00EE563E /* Forecastr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecastr.h; sourceTree = "<group>"; };
+		A3D370FE176C108D00EE563E /* Forecastr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecastr.m; sourceTree = "<group>"; };
+		A3D370FF176C108D00EE563E /* ForecastrUnits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ForecastrUnits.plist; sourceTree = "<group>"; };
+		A3D3710C176C123E00EE563E /* FCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCLocationManager.h; sourceTree = "<group>"; };
+		A3D3710D176C123E00EE563E /* FCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCLocationManager.m; sourceTree = "<group>"; };
+		A3DCD00D176B85DD0001AAD8 /* WeatherBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DCD010176B85DD0001AAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3DCD012176B85DD0001AAD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3DCD014176B85DD0001AAD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3DCD018176B85DD0001AAD8 /* WeatherBud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherBud-Info.plist"; sourceTree = "<group>"; };
+		A3DCD01A176B85DD0001AAD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3DCD01C176B85DD0001AAD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3DCD01E176B85DD0001AAD8 /* WeatherBud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherBud-Prefix.pch"; sourceTree = "<group>"; };
+		A3DCD01F176B85DD0001AAD8 /* WeatherbudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherbudAppDelegate.h; sourceTree = "<group>"; };
+		A3DCD020176B85DD0001AAD8 /* WeatherbudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherbudAppDelegate.m; sourceTree = "<group>"; };
+		A3DCD023176B85DD0001AAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3DCD025176B85DD0001AAD8 /* WeatherbudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherbudViewController.h; sourceTree = "<group>"; };
+		A3DCD026176B85DD0001AAD8 /* WeatherbudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherbudViewController.m; sourceTree = "<group>"; };
+		A3DCD028176B85DD0001AAD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3DCD02E176B85DD0001AAD8 /* WeatherBudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherBudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DCD02F176B85DD0001AAD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A3DCD037176B85DD0001AAD8 /* WeatherBudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherBudTests-Info.plist"; sourceTree = "<group>"; };
+		A3DCD039176B85DD0001AAD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3DCD03B176B85DD0001AAD8 /* WeatherBudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherBudTests.m; sourceTree = "<group>"; };
+		A3DCD06E176B87EB0001AAD8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A3DCD070176B87F40001AAD8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A3DCD072176B87FB0001AAD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A3FA169E176BBDA30050902A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A3FA169F176BBDA30050902A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3DCD00A176B85DD0001AAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37C144317825D56004E750D /* QuartzCore.framework in Frameworks */,
+				A3C1C689176C075A0009E033 /* MobileCoreServices.framework in Frameworks */,
+				A3C1C688176C07530009E033 /* SystemConfiguration.framework in Frameworks */,
+				A3DCD06F176B87EB0001AAD8 /* CoreLocation.framework in Frameworks */,
+				A3DCD013176B85DD0001AAD8 /* CoreGraphics.framework in Frameworks */,
+				A3DCD015176B85DD0001AAD8 /* UIKit.framework in Frameworks */,
+				A3DCD011176B85DD0001AAD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DCD02B176B85DD0001AAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DCD030176B85DD0001AAD8 /* XCTest.framework in Frameworks */,
+				A3DCD032176B85DD0001AAD8 /* UIKit.framework in Frameworks */,
+				A3DCD031176B85DD0001AAD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A371BA7917DB8A9400301060 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A371BA7C17DB8CD400301060 /* Icon-iOS6-57.png */,
+				A371BA7317DB8A6800301060 /* Icon-iOS7-Spotlight.png */,
+				A371BA7417DB8A6800301060 /* Icon-iOS7.png */,
+				A371BA7517DB8A6800301060 /* Icon-Settings.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		A3D370E6176C108D00EE563E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A3D370E7176C108D00EE563E /* AFHTTPClient.h */,
+				A3D370E8176C108D00EE563E /* AFHTTPClient.m */,
+				A3D370E9176C108D00EE563E /* AFHTTPRequestOperation.h */,
+				A3D370EA176C108D00EE563E /* AFHTTPRequestOperation.m */,
+				A3D370EB176C108D00EE563E /* AFImageRequestOperation.h */,
+				A3D370EC176C108D00EE563E /* AFImageRequestOperation.m */,
+				A3D370ED176C108D00EE563E /* AFJSONRequestOperation.h */,
+				A3D370EE176C108D00EE563E /* AFJSONRequestOperation.m */,
+				A3D370EF176C108D00EE563E /* AFNetworkActivityIndicatorManager.h */,
+				A3D370F0176C108D00EE563E /* AFNetworkActivityIndicatorManager.m */,
+				A3D370F1176C108D00EE563E /* AFNetworking.h */,
+				A3D370F2176C108D00EE563E /* AFPropertyListRequestOperation.h */,
+				A3D370F3176C108D00EE563E /* AFPropertyListRequestOperation.m */,
+				A3D370F4176C108D00EE563E /* AFURLConnectionOperation.h */,
+				A3D370F5176C108D00EE563E /* AFURLConnectionOperation.m */,
+				A3D370F6176C108D00EE563E /* AFXMLRequestOperation.h */,
+				A3D370F7176C108D00EE563E /* AFXMLRequestOperation.m */,
+				A3D370F8176C108D00EE563E /* UIImageView+AFNetworking.h */,
+				A3D370F9176C108D00EE563E /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A3D370FA176C108D00EE563E /* Forecastr */ = {
+			isa = PBXGroup;
+			children = (
+				A3D370FB176C108D00EE563E /* Forecastr+CLLocation.h */,
+				A3D370FC176C108D00EE563E /* Forecastr+CLLocation.m */,
+				A3D370FD176C108D00EE563E /* Forecastr.h */,
+				A3D370FE176C108D00EE563E /* Forecastr.m */,
+				A3D370FF176C108D00EE563E /* ForecastrUnits.plist */,
+			);
+			path = Forecastr;
+			sourceTree = "<group>";
+		};
+		A3DCD004176B85DD0001AAD8 = {
+			isa = PBXGroup;
+			children = (
+				A371BA7917DB8A9400301060 /* Icons */,
+				A39958EA176FE65200875DF9 /* Default-568h@2x.png */,
+				A3D370E6176C108D00EE563E /* AFNetworking */,
+				A3D370FA176C108D00EE563E /* Forecastr */,
+				A3DCD016176B85DD0001AAD8 /* WeatherBud */,
+				A3DCD035176B85DD0001AAD8 /* WeatherBudTests */,
+				A3DCD00F176B85DD0001AAD8 /* Frameworks */,
+				A3DCD00E176B85DD0001AAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3DCD00E176B85DD0001AAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCD00D176B85DD0001AAD8 /* WeatherBud.app */,
+				A3DCD02E176B85DD0001AAD8 /* WeatherBudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3DCD00F176B85DD0001AAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37C144217825D56004E750D /* QuartzCore.framework */,
+				A3DCD072176B87FB0001AAD8 /* SystemConfiguration.framework */,
+				A3DCD070176B87F40001AAD8 /* MobileCoreServices.framework */,
+				A3DCD06E176B87EB0001AAD8 /* CoreLocation.framework */,
+				A3DCD010176B85DD0001AAD8 /* Foundation.framework */,
+				A3DCD012176B85DD0001AAD8 /* CoreGraphics.framework */,
+				A3DCD014176B85DD0001AAD8 /* UIKit.framework */,
+				A3DCD02F176B85DD0001AAD8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3DCD016176B85DD0001AAD8 /* WeatherBud */ = {
+			isa = PBXGroup;
+			children = (
+				A356B3F817D5307A0099E511 /* BudBox.m */,
+				A356B3F917D5307A0099E511 /* BudBox.h */,
+				A3DCD01F176B85DD0001AAD8 /* WeatherbudAppDelegate.h */,
+				A3DCD020176B85DD0001AAD8 /* WeatherbudAppDelegate.m */,
+				A3FA169E176BBDA30050902A /* SettingsViewController.h */,
+				A3FA169F176BBDA30050902A /* SettingsViewController.m */,
+				A3DCD022176B85DD0001AAD8 /* Main.storyboard */,
+				A3DCD025176B85DD0001AAD8 /* WeatherbudViewController.h */,
+				A3DCD026176B85DD0001AAD8 /* WeatherbudViewController.m */,
+				A3D3710C176C123E00EE563E /* FCLocationManager.h */,
+				A3D3710D176C123E00EE563E /* FCLocationManager.m */,
+				A3DCD028176B85DD0001AAD8 /* Images.xcassets */,
+				A3DCD017176B85DD0001AAD8 /* Supporting Files */,
+			);
+			path = WeatherBud;
+			sourceTree = "<group>";
+		};
+		A3DCD017176B85DD0001AAD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCD018176B85DD0001AAD8 /* WeatherBud-Info.plist */,
+				A3DCD019176B85DD0001AAD8 /* InfoPlist.strings */,
+				A3DCD01C176B85DD0001AAD8 /* main.m */,
+				A3DCD01E176B85DD0001AAD8 /* WeatherBud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3DCD035176B85DD0001AAD8 /* WeatherBudTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCD03B176B85DD0001AAD8 /* WeatherBudTests.m */,
+				A3DCD036176B85DD0001AAD8 /* Supporting Files */,
+			);
+			path = WeatherBudTests;
+			sourceTree = "<group>";
+		};
+		A3DCD036176B85DD0001AAD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCD037176B85DD0001AAD8 /* WeatherBudTests-Info.plist */,
+				A3DCD038176B85DD0001AAD8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3DCD00C176B85DD0001AAD8 /* WeatherBud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DCD03F176B85DD0001AAD8 /* Build configuration list for PBXNativeTarget "WeatherBud" */;
+			buildPhases = (
+				A3DCD009176B85DD0001AAD8 /* Sources */,
+				A3DCD00A176B85DD0001AAD8 /* Frameworks */,
+				A3DCD00B176B85DD0001AAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherBud;
+			productName = WeatherBud;
+			productReference = A3DCD00D176B85DD0001AAD8 /* WeatherBud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3DCD02D176B85DD0001AAD8 /* WeatherBudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DCD042176B85DD0001AAD8 /* Build configuration list for PBXNativeTarget "WeatherBudTests" */;
+			buildPhases = (
+				A3DCD02A176B85DD0001AAD8 /* Sources */,
+				A3DCD02B176B85DD0001AAD8 /* Frameworks */,
+				A3DCD02C176B85DD0001AAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DCD034176B85DD0001AAD8 /* PBXTargetDependency */,
+			);
+			name = WeatherBudTests;
+			productName = WeatherBudTests;
+			productReference = A3DCD02E176B85DD0001AAD8 /* WeatherBudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3DCD005176B85DD0001AAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Weatherbud;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Luke Patton";
+				TargetAttributes = {
+					A3DCD00C176B85DD0001AAD8 = {
+						DevelopmentTeam = BER6AW8TB5;
+					};
+					A3DCD02D176B85DD0001AAD8 = {
+						TestTargetID = A3DCD00C176B85DD0001AAD8;
+					};
+				};
+			};
+			buildConfigurationList = A3DCD008176B85DD0001AAD8 /* Build configuration list for PBXProject "WeatherBud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3DCD004176B85DD0001AAD8;
+			productRefGroup = A3DCD00E176B85DD0001AAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3DCD00C176B85DD0001AAD8 /* WeatherBud */,
+				A3DCD02D176B85DD0001AAD8 /* WeatherBudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3DCD00B176B85DD0001AAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DCD029176B85DD0001AAD8 /* Images.xcassets in Resources */,
+				A371BA7617DB8A6900301060 /* Icon-iOS7-Spotlight.png in Resources */,
+				A3DCD01B176B85DD0001AAD8 /* InfoPlist.strings in Resources */,
+				A371BA7817DB8A6900301060 /* Icon-Settings.png in Resources */,
+				A3D3710B176C108D00EE563E /* ForecastrUnits.plist in Resources */,
+				A371BA7D17DB8CD400301060 /* Icon-iOS6-57.png in Resources */,
+				A3DCD024176B85DD0001AAD8 /* Main.storyboard in Resources */,
+				A371BA7717DB8A6900301060 /* Icon-iOS7.png in Resources */,
+				A39958EB176FE65200875DF9 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DCD02C176B85DD0001AAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DCD03A176B85DD0001AAD8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3DCD009176B85DD0001AAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D37102176C108D00EE563E /* AFImageRequestOperation.m in Sources */,
+				A3DCD027176B85DD0001AAD8 /* WeatherbudViewController.m in Sources */,
+				A3DCD01D176B85DD0001AAD8 /* main.m in Sources */,
+				A3D37107176C108D00EE563E /* AFXMLRequestOperation.m in Sources */,
+				A3D37108176C108D00EE563E /* UIImageView+AFNetworking.m in Sources */,
+				A3D37106176C108D00EE563E /* AFURLConnectionOperation.m in Sources */,
+				A356B3FA17D5307A0099E511 /* BudBox.m in Sources */,
+				A3D37104176C108D00EE563E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A3FA16A0176BBDA30050902A /* SettingsViewController.m in Sources */,
+				A3D37103176C108D00EE563E /* AFJSONRequestOperation.m in Sources */,
+				A3D3710E176C123E00EE563E /* FCLocationManager.m in Sources */,
+				A3D37109176C108D00EE563E /* Forecastr+CLLocation.m in Sources */,
+				A3DCD021176B85DD0001AAD8 /* WeatherbudAppDelegate.m in Sources */,
+				A3D37105176C108D00EE563E /* AFPropertyListRequestOperation.m in Sources */,
+				A3D37100176C108D00EE563E /* AFHTTPClient.m in Sources */,
+				A3D37101176C108D00EE563E /* AFHTTPRequestOperation.m in Sources */,
+				A3D3710A176C108D00EE563E /* Forecastr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DCD02A176B85DD0001AAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DCD03C176B85DD0001AAD8 /* WeatherBudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3DCD034176B85DD0001AAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3DCD00C176B85DD0001AAD8 /* WeatherBud */;
+			targetProxy = A3DCD033176B85DD0001AAD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3DCD019176B85DD0001AAD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DCD01A176B85DD0001AAD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3DCD022176B85DD0001AAD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DCD023176B85DD0001AAD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3DCD038176B85DD0001AAD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DCD039176B85DD0001AAD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3DCD03D176B85DD0001AAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3DCD03E176B85DD0001AAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3DCD040176B85DD0001AAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luke Patton (BER6AW8TB5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherBud/WeatherBud-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "WeatherBud/WeatherBud-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4F7F4581-33D4-429C-9874-AC90E91FE7CA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3DCD041176B85DD0001AAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luke Patton (BER6AW8TB5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherBud/WeatherBud-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "WeatherBud/WeatherBud-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4F7F4581-33D4-429C-9874-AC90E91FE7CA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A3DCD043176B85DD0001AAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeatherBud.app/WeatherBud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherBud/WeatherBud-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WeatherBudTests/WeatherBudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A3DCD044176B85DD0001AAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeatherBud.app/WeatherBud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherBud/WeatherBud-Prefix.pch";
+				INFOPLIST_FILE = "WeatherBudTests/WeatherBudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3DCD008176B85DD0001AAD8 /* Build configuration list for PBXProject "WeatherBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DCD03D176B85DD0001AAD8 /* Debug */,
+				A3DCD03E176B85DD0001AAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DCD03F176B85DD0001AAD8 /* Build configuration list for PBXNativeTarget "WeatherBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DCD040176B85DD0001AAD8 /* Debug */,
+				A3DCD041176B85DD0001AAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DCD042176B85DD0001AAD8 /* Build configuration list for PBXNativeTarget "WeatherBudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DCD043176B85DD0001AAD8 /* Debug */,
+				A3DCD044176B85DD0001AAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3DCD005176B85DD0001AAD8 /* Project object */;
+}
